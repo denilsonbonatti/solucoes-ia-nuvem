@@ -1,8 +1,8 @@
 import requests
 
 # Substitua pelos seus dados do portal
-subscription_key = "1diLLIYGFfuQfkelbOUGb97LsseTEEp7F4XzcwA73gFtRrDmsrwNJQQJ99BGACYeBjFXJ3w3AAAFACOGyQZG"
-endpoint = "https://azure-aula-senac.cognitiveservices.azure.com/"  
+subscription_key = "???"
+endpoint = "????"  
 
 # URL do primeiro exemplo
 
