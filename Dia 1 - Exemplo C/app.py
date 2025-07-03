@@ -1,8 +1,8 @@
 import requests
 
 # Substitua pelos seus dados do portal
-subscription_key = "???"
-endpoint = "????"  
+subscription_key = ""
+endpoint = ""  
 
 # URL do primeiro exemplo
 
@@ -11,7 +11,7 @@ endpoint = "????"
 #Foto 3: https://a-static.mlcdn.com.br/800x560/conjunto-feminino-alfaiataria-blusa-shorts-cinto-linho-top-verde-naromi/shoporiginal/a1n5-987-p/a03ca82d666115b26cdb86dc730e32e6.jpeg
 #Foto 4: https://a-static.mlcdn.com.br/800x560/conjunto-feminino-alfaiataria-linho-blusa-regata-short-cinto-amarelo-naromi/shoporiginal/a4n3-1152-p/a8b93f3abcf2c6658aaab342f449c0e3.jpeg
 
-image_url = "https://a-static.mlcdn.com.br/800x560/conjunto-colete-cropped-e-saia-vermelho-fina-moca/bellamadamme/11f4c6f4ccef11eeade44201ac185040/6757212b244b0b7dafa976b5b3415c6e.jpeg"
+image_url = "https://portaledicase.com/wp-content/uploads/2023/03/cachorros-scaled.jpg"
 
 # URL da API com o caminho /vision/v3.2/analyze
 analyze_url = endpoint + "vision/v3.2/analyze"
@@ -37,4 +37,11 @@ response.raise_for_status()
 analysis = response.json()
 
 # Exibe a descrição da imagem
-print("Descrição:", analysis["description"]["captions"][0]["text"])
+#print(analysis["description"]["tags"])
+resposta = analysis["description"]["tags"]
+
+if "mulher" in resposta:
+    print("Existe uma mulher na imagem")
+
+else:
+    print("Não existe uma mulher na imagem")

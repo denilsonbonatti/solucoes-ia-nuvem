@@ -5,8 +5,8 @@ from azure.core.credentials import AzureKeyCredential
 from azure.core.exceptions import HttpResponseError
 
 # Substitua pelos seus dados reais
-AZURE_ENDPOINT = "????"
-AZURE_KEY = "????"
+AZURE_ENDPOINT = ""
+AZURE_KEY = ""
 
 # Autenticação
 def authenticate_client(endpoint, key):

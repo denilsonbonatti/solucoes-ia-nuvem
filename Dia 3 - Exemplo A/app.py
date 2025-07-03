@@ -5,8 +5,8 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
 # Substitua pelos seus dados
-endpoint = "???"
-key = "????"
+endpoint = ""
+key = ""
 
 # Autenticação
 credential = AzureKeyCredential(key)

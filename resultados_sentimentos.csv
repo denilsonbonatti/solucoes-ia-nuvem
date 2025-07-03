@@ -1,0 +1,11 @@
+comentario,sentimento,positivo,neutro,negativo
+"Produto excelente, superou minhas expectativas!",positive,1.0,0.0,0.0
+"Chegou com defeito, muito decepcionado.",negative,0.0,0.0,0.99
+Entrega rápida e embalagem perfeita.,positive,1.0,0.0,0.0
+Não gostei da qualidade do material.,negative,0.0,0.0,0.99
+Atendimento ao cliente foi ótimo.,positive,1.0,0.0,0.0
+"Produto razoável, cumpre o que promete.",positive,0.99,0.01,0.0
+Muito caro pelo que oferece.,negative,0.0,0.0,0.99
+Design bonito e funcional.,positive,0.99,0.01,0.0
+"Veio faltando peças, solicitei troca.",neutral,0.05,0.59,0.35
+"Recomendo, ótimo custo-benefício.",positive,1.0,0.0,0.0
